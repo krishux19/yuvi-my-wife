@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viv | Fashion & Lifestyle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Open Sans', sans-serif; color: #222; background: #fff; line-height: 1.6; }
+    header {
+      background: url('https://via.placeholder.com/1400x800?text=Banner+Image') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      background: rgba(0,0,0,0.4);
+      padding: 20px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #f7f7f7;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .about, .contact {
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f7f7f7;
+      font-size: 0.9em;
+    }
+    @media(max-width: 600px){
+      header h1 { font-size: 2em; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Viv — I create fashion stories.</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm a fashion & lifestyle creator sharing my journey through minimalistic style, storytelling reels, and aesthetic visuals. Open for collabs!</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Style</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x400?text=Look+1" alt="Look 1">
+      <img src="https://via.placeholder.com/400x400?text=Look+2" alt="Look 2">
+      <img src="https://via.placeholder.com/400x400?text=Look+3" alt="Look 3">
+      <img src="https://via.placeholder.com/400x400?text=Look+4" alt="Look 4">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:hello@vivstyle.com">hello@vivstyle.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/uvuvuvivuvuub" target="_blank">@uvuvuvivuvuub</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Viv | Designed with love by Krishu
+  </footer>
+</body>
+</html>
